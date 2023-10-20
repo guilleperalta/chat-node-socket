@@ -1,0 +1,14 @@
+# Node.js
+node_modules/
+
+# Archivos de construcción
+dist/
+build/
+out/
+
+# Entornos
+.env
+
+# Otros
+.DS_Store
+Thumbs.db

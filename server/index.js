@@ -5,7 +5,7 @@ import { Server } from "socket.io"
 import { createServer } from "node:http"
 import {DataTypes , Sequelize} from 'sequelize'
 
-const port = process.env.PORT ?? 3050
+const port = process.env.PORT
 const app = express()
 const server = createServer(app)
 const io = new Server(server , {
